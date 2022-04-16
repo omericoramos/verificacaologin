@@ -1,0 +1,66 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 17px;
+  background-color: #eeeff091;
+  color: rgb(136, 141, 145);
+}
+.container-login {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+.form-login {
+  position: absolute;
+  margin: auto;
+  top: 9%;
+  left: 29%;
+  width: 40%;
+}
+.logo {
+  display: inline-block;
+  width: 85%;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+#acesso {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0 0 45px;
+}
+.input-form {
+  display: block;
+  width: 75%;
+  color: rgb(131, 134, 136);
+  border: none;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  border-radius: 0%;
+  padding: 0.8rem;
+}
+
+.section-input {
+  margin-bottom: 1rem;
+  max-width: 83.333333%;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.btn-login {
+  cursor: pointer;
+  display: block;
+  width: 67%;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: rgb(255, 255, 255);
+  background-color: #0069D9;
+  border: none;
+}

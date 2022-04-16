@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--validação-->
+    <title>Sistemiza</title>
+    <script src="validate.js"></script>
+</head>
+
+<body>
+    <div class="container-login">
+                <div class="form-login">
+                    <div class="logo">
+                        <h1>Sistema Login</h1>
+                    </div>
+                    <form id="acesso" method="post" action="" onsubmit="validarLogin()">
+                        <div class="form-row">
+                            <div class="section-input">
+                                <label for="email">Login</label>
+                                <input class="input-form" type="email" name="login" id="login" required>
+                            </div>
+                            <div class="section-input">
+                                <label for="password">Senha</label>
+                                <input class="input-form" type="password" name="password" id="password" required>
+                            </div>
+                            <div class="form-group col-md-10">
+                                <button type="submit" class="btn-login" onclick="">Entrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+</body>
+</html>
